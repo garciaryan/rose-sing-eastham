@@ -55,13 +55,13 @@ export default function Header() {
             width={100}
             height={79}
           />
-          <p className="text-xl ml-2 text-[#4F6D7A]">Rose Sing Eastham <br />and Associates, Inc.</p>
+          <p className="text-xl ml-2 text-blue">Rose Sing Eastham <br />and Associates, Inc.</p>
         </NavbarBrand>
       </NavbarContent>
       <NavbarContent className="hidden lg:flex gap-4" justify="center">
         {desktopMenuItems.map((item, index) => (
           <NavbarItem key={`${item}=${index}`}>
-            <a className="text-black hover:text-[#4F6D7A]" href={item.url}>
+            <a className="text-black hover:text-blue" href={item.url}>
               {item.text}
             </a>
           </NavbarItem>
