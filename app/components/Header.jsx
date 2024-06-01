@@ -47,7 +47,7 @@ export default function Header() {
       onMenuOpenChange={setIsMenuOpen}
       className="h-24 bg-white"
     >
-      <NavbarContent className="pr-3 sm:pr-0" justify="center">
+      <NavbarContent className="pr-3 tablet:pr-0" justify="center">
         <NavbarBrand>
           <Image
             src="/rse-logo.png"
@@ -58,7 +58,7 @@ export default function Header() {
           <p className="text-xl ml-2 text-blue">Rose Sing Eastham <br />and Associates, Inc.</p>
         </NavbarBrand>
       </NavbarContent>
-      <NavbarContent className="hidden lg:flex gap-4" justify="center">
+      <NavbarContent className="hidden desktop:flex gap-4" justify="center">
         {desktopMenuItems.map((item, index) => (
           <NavbarItem key={`${item}=${index}`}>
             <a className="text-black hover:text-blue" href={item.url}>
@@ -67,14 +67,10 @@ export default function Header() {
           </NavbarItem>
         ))}
       </NavbarContent>
-      <NavbarContent className="lg:hidden" justify="end">
-        <NavbarMenuToggle
-          style={{ color: '#000000' }}
-          aria-label={isMenuOpen ? "Close menu" : "Open menu"}
-          className="lg:hidden"
-        />
+      <NavbarContent className="desktop:hidden" justify="end">
+        <NavbarMenuToggle aria-label={isMenuOpen ? "Close menu" : "Open menu"} style={{ color: '#000000' }} />
       </NavbarContent>
-      <NavbarMenu className="bg-[#C0D6DF] top-24">
+      <NavbarMenu className="bg-light-blue top-24">
         {mobileMenuItems.map((item, index) => (
           <NavbarMenuItem key={`${item}-${index}`} className="pt-5">
             <a
