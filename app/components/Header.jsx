@@ -8,7 +8,7 @@ import {
   NavbarMenuToggle,
   NavbarMenu,
   NavbarMenuItem,
-} from "@nextui-org/react";
+} from "@heroui/react";
 import Image from "next/image";
 import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -47,18 +47,20 @@ export default function Header() {
       onMenuOpenChange={setIsMenuOpen}
       className="h-24 bg-white"
     >
-      <NavbarContent className="pr-3 tablet:pr-0" justify="center">
-        <NavbarBrand>
-          <Image
-            src="/rse-logo.png"
-            alt="Rose Sing Eastham and Associates, Inc. logo"
-            width={100}
-            height={79}
-          />
-          <p className="text-xl ml-2 text-blue">Rose Sing Eastham <br />and Associates, Inc.</p>
-        </NavbarBrand>
+      <NavbarContent className="pr-3 md:pr-0" justify="center">
+        <a href="/">
+          <NavbarBrand>
+            <Image
+              src="/rse-logo.png"
+              alt="Rose Sing Eastham and Associates, Inc. logo"
+              width={100}
+              height={79}
+            />
+            <p className="text-xl ml-2 text-blue">Rose Sing Eastham <br />and Associates, Inc.</p>
+          </NavbarBrand>
+        </a>
       </NavbarContent>
-      <NavbarContent className="hidden desktop:flex gap-4" justify="center">
+      <NavbarContent className="hidden lg:flex gap-4" justify="center">
         {desktopMenuItems.map((item, index) => (
           <NavbarItem key={`${item}=${index}`}>
             <a className="text-black hover:text-blue" href={item.url}>
@@ -67,10 +69,10 @@ export default function Header() {
           </NavbarItem>
         ))}
       </NavbarContent>
-      <NavbarContent className="desktop:hidden" justify="end">
+      <NavbarContent className="lg:hidden" justify="end">
         <NavbarMenuToggle aria-label={isMenuOpen ? "Close menu" : "Open menu"} style={{ color: '#000000' }} />
       </NavbarContent>
-      <NavbarMenu className="bg-light-blue top-24">
+      <NavbarMenu className={`bg-light-blue top-24 transition-transform duration-300 ${isMenuOpen ? 'translate-y-0' : '-translate-y-full'}`}>
         {mobileMenuItems.map((item, index) => (
           <NavbarMenuItem key={`${item}-${index}`} className="pt-5">
             <a

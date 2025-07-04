@@ -1,14 +1,14 @@
 'use client'
 
-import {NextUIProvider} from '@nextui-org/system';
+import {HeroUIProvider} from "@heroui/system";
 import { useRouter } from 'next/navigation';
 
 export function Providers({children}) {
   const router = useRouter();
 
   return (
-    <NextUIProvider navigate={router.push}>
+    <HeroUIProvider navigate={router.push}>
       {children}
-    </NextUIProvider>
+    </HeroUIProvider>
   )
 }

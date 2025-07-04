@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
@@ -13,19 +13,24 @@
     "@fortawesome/free-regular-svg-icons": "^6.5.2",
     "@fortawesome/free-solid-svg-icons": "^6.5.2",
     "@fortawesome/react-fontawesome": "^0.2.0",
-    "@nextui-org/react": "^2.3.6",
+    "@heroui/react": "2.7.10",
+    "@tailwindcss/postcss": "^4.1.10",
+    "@tailwindcss/postcss7-compat": "^2.2.17",
     "framer-motion": "^11.1.9",
-    "next": "14.2.3",
-    "react": "^18",
-    "react-dom": "^18",
+    "next": "15.3.3",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
     "swiper": "^11.1.1"
   },
   "devDependencies": {
     "@types/node": "20.12.12",
-    "@types/react": "18.3.3",
+    "@types/react": "19.1.8",
     "eslint": "^8",
-    "eslint-config-next": "14.2.3",
+    "eslint-config-next": "15.3.3",
     "postcss": "^8",
-    "tailwindcss": "^3.4.1"
+    "tailwindcss": "^4.1.10"
+  },
+  "overrides": {
+    "@types/react": "19.1.8"
   }
 }
