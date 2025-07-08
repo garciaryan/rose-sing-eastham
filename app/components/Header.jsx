@@ -32,7 +32,7 @@ export default function Header() {
 
   const desktopMenuItems = [
     { text: 'About Us', url: '/about-us' },
-    { text: 'Services', url: '/services' },
+    { text: 'Services', url: '#services' },
     { text: 'Projects', url: '/' },
     { text: 'Contact Us', url: '/contact-us' },
     { text: 'Join the Team', url: '/careers' },
@@ -56,7 +56,7 @@ export default function Header() {
               width={100}
               height={79}
             />
-            <p className="text-xl ml-2 text-blue">Rose Sing Eastham <br />and Associates, Inc.</p>
+            <p className="text-xl ml-2 text-black">Rose Sing Eastham <br />and Associates, Inc.</p>
           </NavbarBrand>
         </a>
       </NavbarContent>
@@ -70,7 +70,7 @@ export default function Header() {
         ))}
       </NavbarContent>
       <NavbarContent className="lg:hidden" justify="end">
-        <NavbarMenuToggle aria-label={isMenuOpen ? "Close menu" : "Open menu"} style={{ color: '#000000' }} />
+        <NavbarMenuToggle aria-label={isMenuOpen ? "Close menu" : "Open menu"} className="text-black" />
       </NavbarContent>
       <NavbarMenu className={`bg-light-blue top-24 transition-transform duration-300 ${isMenuOpen ? 'translate-y-0' : '-translate-y-full'}`}>
         {mobileMenuItems.map((item, index) => (
