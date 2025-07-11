@@ -9,7 +9,7 @@ export default function Services() {
         <h1 className="text-6xl mb-4 font-bold">Services</h1>
         <p className="text-2xl font-light">We offer a range of services to help you achieve your goals.</p>
       </div>
-      <div className="bg-light-blue half-2 p-8 lg:col-span-7 col-span-12 flex flex-col lg:flex-row justify-center text-xl lg:text-2xl">
+      <div className="bg-light-blue p-8 lg:p-17 half-2 lg:col-span-7 col-span-12 flex flex-col lg:flex-row justify-center text-xl lg:text-2xl">
         <ul className="w-full pr-4">
           {servicesList.map((service, index) => (
             <li key={index} className="mb-4">

@@ -1,43 +1,80 @@
 'use client';
 
-import { register } from 'swiper/element/bundle';
+import React, { useEffect } from "react";
+import { register } from "swiper/element/bundle";
 import Image from "next/image";
-import 'swiper/css/autoplay';
-import React from 'react';
-
-register();
 
 export default function HomeCarousel() {
+  useEffect(() => {
+    register(); // Register Swiper web components
+  }, []);
+
   return (
-    <>
+    <div className="relative w-full h-full">
       <swiper-container
-        className="mySwiper"
-        loop
+        class="mySwiper"
+        loop="true"
         autoplay-delay="7000"
         autoplay-disable-on-interaction="false"
+        style={{ width: "100%", height: "100%" }}
       >
         <swiper-slide>
-          <Image alt="electrical box" fill src="/box.jpg" />
+          <Image
+            alt="electrical box"
+            src="/box.jpg"
+            fill
+            className="object-cover"
+          />
         </swiper-slide>
         <swiper-slide>
-          <Image alt="electrical box" fill src="/locked.jpg" />
+          <Image
+            alt="locked electrical box"
+            src="/locked.jpg"
+            fill
+            className="object-cover"
+          />
         </swiper-slide>
         <swiper-slide>
-          <Image alt="AC electrical unit" fill src="/AC.jpg" />
+          <Image
+            alt="AC electrical unit"
+            src="/AC.jpg"
+            fill
+            className="object-cover"
+          />
         </swiper-slide>
         <swiper-slide>
-          <Image alt="construction crane" fill src="/crane.jpg" />
+          <Image
+            alt="construction crane"
+            src="/crane.jpg"
+            fill
+            className="object-cover"
+          />
         </swiper-slide>
         <swiper-slide>
-          <Image alt="electrical cables" fill src="/cables.jpg" />
+          <Image
+            alt="electrical cables"
+            src="/cables.jpg"
+            fill
+            className="object-cover"
+          />
         </swiper-slide>
         <swiper-slide>
-          <Image alt="overhead view of building" fill src="/overhead.jpg" />
+          <Image
+            alt="overhead view of building"
+            src="/overhead.jpg"
+            fill
+            className="object-cover"
+          />
         </swiper-slide>
         <swiper-slide>
-          <Image alt="image of structure" fill src="/structure.jpg" />
+          <Image
+            alt="image of structure"
+            src="/structure.jpg"
+            fill
+            className="object-cover"
+          />
         </swiper-slide>
       </swiper-container>
-    </>
-  )
+    </div>
+  );
 }
