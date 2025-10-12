@@ -26,13 +26,13 @@ export default function Header() {
   const mobileMenuItems = [
     { text: <><FontAwesomeIcon style={fontStyle} icon={faUsers} /><div>About Us</div></>, url: '/#about-us' },
     { text: <><FontAwesomeIcon style={fontStyle} icon={faBolt} /><div>Services</div></>, url: '/#services' },
-    { text: <><FontAwesomeIcon style={fontStyle} icon={faCity} /><div>Projects</div></>, url: '/' },
+    { text: <><FontAwesomeIcon style={fontStyle} icon={faCity} /><div>Projects</div></>, url: '/projects' },
     { text: <><FontAwesomeIcon style={fontStyle} icon={faEnvelope} /><div>Contact Us</div></>, url: '/contact-us' },
     { text: <><FontAwesomeIcon style={fontStyle} icon={faHandshake} /><div>Join the Team</div></>, url: '/careers' }
   ];
 
   const desktopMenuItems = [
-    { text: 'Projects', url: '/' },
+    { text: 'Projects', url: '/projects' },
     { text: 'Services', url: '/#services' },
     { text: 'About Us', url: '/#about-us' },
     { text: 'Contact', url: '/contact-us' },

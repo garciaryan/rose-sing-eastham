@@ -13,7 +13,7 @@ const plusJakartaSans = Plus_Jakarta_Sans({ subsets: ['latin'] });
 
 const metadata = {
   title: "Rose Sing Eastham and Associates, Inc. | Electrical Consultants",
-  description: "Rose Sing Eastham and Associates, Inc. is located in Visalia, CA and performs projects throughout the Central and Northern California areas. Our staff of engineering, design, inspection, and CAD professionals can support projects of varying types and sizes.",
+  description: "Rose, Sing, Eastham works with architects, school districts, various commercial and agricultural industries, hospitals, medical facilities and municipalities to provide electrical design plans and calculations for new construction, remodels, parks, industrial buildings, wells, street lighting, and municipality upgrades.",
 };
 
 export default function RootLayout({ children }) {
@@ -33,7 +33,7 @@ export default function RootLayout({ children }) {
             "@context": "https://schema.org",
             "@type": "ProfessionalService",
             "name": "Rose Sing Eastham and Associates, Inc",
-            "url": "https://www.rosesingeastham.com",
+            "url": "https://www.rse-eng.com",
             "address": {
               "@type": "PostalAddress",
               "streetAddress": "131 S. Dunworth St.",

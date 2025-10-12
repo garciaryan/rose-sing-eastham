@@ -16,7 +16,7 @@ export default function Home() {
             <h1 className="lg:text-8xl text-6xl font-semibold col-span-6 lg:col-span-5 self-end row-start-3 lg:col-start-2 text-white">Rose Sing Eastham</h1>
             <h2 className="mt-3 lg:mt-8 lg:text-4xl text-2xl lg:col-span-2 col-span-6 lg:col-start-4 row-start-4 text-white font-extralight">Let us light your way</h2>
             <div className="flex flex-col lg:flex-row lg:justify-evenly col-span-6 row-start-6 mt-4 items-center">
-              <Link href="#projects" className="max-h-24 mb-4">
+              <Link href="/projects" className="max-h-24 mb-4">
                 <Button className="min-w-[12rem] cursor-pointer project-button lg:text-2xl text-xl border-4 h-24 text-white" size="lg">Projects</Button>
               </Link>
             </div>
