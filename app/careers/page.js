@@ -14,7 +14,7 @@ export default function CareersPage() {
         <div className="max-w-6xl mx-auto text-center relative z-10 px-6">
           <h1 className="text-5xl md:text-6xl font-bold mb-6">Join Our Team</h1>
           <p className="text-lg md:text-xl leading-relaxed max-w-4xl mx-auto">
-            At Rose Sing Eastham and Associates, Inc., we are always looking for talented and passionate individuals to join our team. Whether you're an experienced professional or just starting your career, we offer opportunities to grow and make a difference in the industry.
+            At Rose Sing Eastham and Associates&comma; Inc.&comma; we are always looking for talented and passionate individuals to join our team. Whether you&rsquo;re an experienced professional or just starting your career&comma; we offer opportunities to grow and make a difference in the industry.
           </p>
         </div>
       </section>
@@ -24,10 +24,10 @@ export default function CareersPage() {
         <div className="max-w-6xl mx-auto px-6">
           <h2 className="text-4xl font-bold mb-8 text-center">Our Philosophy</h2>
           <p className="text-lg leading-relaxed text-center mb-8">
-            At RSE, we are committed to delivering electrical engineering solutions that are efficient, thorough, and of the highest quality. Our team works with clients to ensure that we are meeting today's standards with future long-term needs in a sustainable economically-minded sense.
+            At RSE&comma; we are committed to delivering electrical engineering solutions that are efficient&comma; thorough&comma; and of the highest quality. Our team works with clients to ensure that we are meeting today&rsquo;s standards with future long-term needs in a sustainable economically-minded sense.
           </p>
           <p className="text-lg leading-relaxed text-center">
-            RSE prides itself on a collaborative environment and supporting continuous learning, enabling our team members to develop deep expertise in their respective areas. This approach ensures that every project benefits from the collective knowledge and skills of our team, leading to consistent and reliable outcomes for our clients.
+            RSE prides itself on a collaborative environment and supporting continuous learning&comma; enabling our team members to develop deep expertise in their respective areas. This approach ensures that every project benefits from the collective knowledge and skills of our team&comma; leading to consistent and reliable outcomes for our clients.
           </p>
         </div>
       </section>
@@ -37,7 +37,7 @@ export default function CareersPage() {
         <div className="max-w-6xl mx-auto px-6">
           <h2 className="text-4xl font-bold mb-8 text-center">Our Culture</h2>
           <p className="text-lg leading-relaxed text-center mb-12">
-            RSE believes that when our team thrives, so does our work. We're committed to creating an environment where everyone feels valued, supported, and empowered to do their best.
+            RSE believes that when our team thrives&comma; so does our work. We&rsquo;re committed to creating an environment where everyone feels valued&comma; supported&comma; and empowered to do their best.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {/* Benefits */}
@@ -54,22 +54,22 @@ export default function CareersPage() {
               },
               {
                 title: "Flexible Schedules",
-                description: "Enjoy alternative work week options, including half-day Fridays, to balance work and life.",
+                description: "Enjoy alternative work week options&comma; including half-day Fridays&comma; to balance work and life.",
                 icon: "M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z",
               },
               {
-                title: "Community & Connection",
+                title: "Community &amp; Connection",
                 description: "Participate in both in-office and out-of-office social gatherings and volunteer opportunities to build connections and give back.",
                 icon: "M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z",
               },
               {
                 title: "Health Benefits",
-                description: "Health, dental, and vision insurance coverage for you and your family.",
+                description: "Health&comma; dental&comma; and vision insurance coverage for you and your family.",
                 icon: "M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z",
               },
               {
                 title: "Retirement Planning",
-                description: "RSE does a 4% matching fund towards 401K and Roth Contributions.",
+                description: "RSE does a 4&percnt; matching fund towards 401K and Roth Contributions.",
                 icon: "M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z",
               },
             ].map((benefit, index) => (
@@ -105,9 +105,9 @@ export default function CareersPage() {
       {/* Call to Action */}
       <section className="py-32">
         <div className="max-w-6xl mx-auto text-center">
-          <h3 className="text-3xl font-bold mb-6">Ready to Join Us?</h3>
+          <h3 className="text-3xl font-bold mb-6">Ready to Join Us&quest;</h3>
           <p className="text-lg mb-8">
-            Send us your resume and let us know how you'd be a great fit!
+            Send us your resume and let us know how you&rsquo;d be a great fit&excl;
           </p>
           <a
             href="mailto:jeastham@rse-eng.com"
