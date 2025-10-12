@@ -24,13 +24,6 @@ module.exports = {
       container: {
         center: true,
         padding: '1.5rem',
-        screens: {
-          'sm': '100%',
-          'md': '768px',
-          'lg': '1024px',
-          'xl': '1280px',
-          '2xl': '1536px',
-        },
       },
       opacity: {
         '15': '0.15',

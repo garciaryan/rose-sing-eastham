@@ -48,31 +48,3 @@ swiper-slide {
 swiper-slide img {
   @apply block w-full h-full object-cover;
 }
-
-/* Swiper Custom Properties for Shadow DOM */
-.projectSwiper {
-  --swiper-navigation-color: white;
-  --swiper-navigation-size: 18px;
-  --swiper-pagination-color: white;
-  --swiper-pagination-bullet-inactive-color: rgba(255, 255, 255, 0.5);
-  --swiper-pagination-bullet-inactive-opacity: 1;
-  --swiper-pagination-bullet-opacity: 1;
-  --swiper-pagination-bullet-horizontal-gap: 6px;
-  --swiper-pagination-bullet-size: 12px;
-  --swiper-pagination-bottom: 20px;
-}
-
-.projectSwiper::part(button-prev),
-.projectSwiper::part(button-next) {
-  background: rgba(0, 0, 0, 0.7);
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
-  padding: 15px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-}
-
-.projectSwiper::part(button-prev):hover,
-.projectSwiper::part(button-next):hover {
-  background: rgba(0, 0, 0, 0.9);
-}
