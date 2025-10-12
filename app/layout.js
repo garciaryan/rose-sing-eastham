@@ -6,45 +6,43 @@ import { Montserrat, Plus_Jakarta_Sans } from 'next/font/google';
 import { Providers } from "./providers";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import Head from "next/head";
 
 const montserrat = Montserrat({ subsets: ['latin'] });
 const plusJakartaSans = Plus_Jakarta_Sans({ subsets: ['latin'] });
 
-const metadata = {
+export const metadata = {
   title: "Rose Sing Eastham and Associates, Inc. | Electrical Consultants",
   description: "Rose, Sing, Eastham works with architects, school districts, various commercial and agricultural industries, hospitals, medical facilities and municipalities to provide electrical design plans and calculations for new construction, remodels, parks, industrial buildings, wells, street lighting, and municipality upgrades.",
+  openGraph: {
+    title: "Rose Sing Eastham and Associates, Inc. | Electrical Consultants",
+    description: "Rose, Sing, Eastham works with architects, school districts, various commercial and agricultural industries, hospitals, medical facilities and municipalities to provide electrical design plans and calculations for new construction, remodels, parks, industrial buildings, wells, street lighting, and municipality upgrades.",
+    type: "website",
+    images: ["/rse-logo.png"],
+  },
+  icons: {
+    icon: "/favicon.ico",
+  },
+  other: {
+    "application/ld+json": JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "ProfessionalService",
+      "name": "Rose Sing Eastham and Associates, Inc",
+      "url": "https://www.rse-eng.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "131 S. Dunworth St.",
+        "addressLocality": "Visalia",
+        "addressRegion": "CA",
+        "postalCode": "93292-6705",
+        "addressCountry": "US"
+      }  
+    })
+  }
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className="light h-full">
-      <Head>
-        <title>{metadata.title}</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="description" content={metadata.description} />
-        <meta name="og:title" content={metadata.title} />
-        <meta name="og:description" content={metadata.description} />
-        <meta name="og:type" content="website" />
-        <meta name="og:image" content="/rse-logo.png" />
-        <link rel="icon" href="/favicon.ico" />
-        <script type="application/ld+json">
-          {JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "ProfessionalService",
-            "name": "Rose Sing Eastham and Associates, Inc",
-            "url": "https://www.rse-eng.com",
-            "address": {
-              "@type": "PostalAddress",
-              "streetAddress": "131 S. Dunworth St.",
-              "addressLocality": "Visalia",
-              "addressRegion": "CA",
-              "postalCode": "93292-6705",
-              "addressCountry": "US"
-            }  
-          })}
-        </script>
-      </Head>
       <body className={`${montserrat.className} ${plusJakartaSans.className} bg-blue h-full`}>
         <Providers>
           <Header />

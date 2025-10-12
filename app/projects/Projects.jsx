@@ -64,8 +64,6 @@ export default function Projects() {
                 autoplay-delay="5000"
                 autoplay-disable-on-interaction={false}
                 navigation={true}
-                pagination={true}
-                pagination-clickable={true}
               >
                 {projectsList.map((project) => (
                   <swiper-slide key={project.id}>
