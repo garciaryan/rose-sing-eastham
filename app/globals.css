@@ -4,6 +4,7 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  --swiper-theme-color: #C0D6DF;
 }
 
 @theme {
@@ -18,6 +19,7 @@
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
+    --swiper-theme-color: #C0D6DF;
   }
 }
 
@@ -47,4 +49,57 @@ swiper-slide {
 
 swiper-slide img {
   @apply block w-full h-full object-cover;
+}
+
+/* Custom Swiper Navigation Styling */
+swiper-container::part(button-prev),
+swiper-container::part(button-next) {
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  padding: 5px;
+  margin-top: -10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+  color: #4F6D7A;
+}
+
+@media (min-width: 640px) {
+  swiper-container::part(button-prev),
+  swiper-container::part(button-next) {
+    width: 35px;
+    height: 35px;
+    padding: 10px;
+    margin-top: -17.5px;
+  }
+}
+
+swiper-container::part(button-prev):hover,
+swiper-container::part(button-next):hover {
+  background: #C0D6DF;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  transform: scale(1.1);
+  color: #4F6D7A;
+}
+
+swiper-container::part(button-prev) {
+  left: 20px;
+}
+
+swiper-container::part(button-next) {
+  right: 20px;
+}
+
+swiper-container::part(bullet) {
+  background: rgba(255, 255, 255, 0.6);
+  opacity: 1;
+  width: 12px;
+  height: 12px;
+}
+
+swiper-container::part(bullet-active) {
+  background: #C0D6DF;
+  transform: scale(1.2);
 }

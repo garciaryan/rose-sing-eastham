@@ -20,10 +20,6 @@ export default function Header() {
     marginRight: '12px'
   }
 
-  useEffect(() => {
-    console.log(`Menu is now ${isMenuOpen ? 'open' : 'closed'}`);
-  }, [isMenuOpen])
-
   const mobileMenuItems = [
     { text: <><FontAwesomeIcon style={fontStyle} icon={faUsers} /><span>About Us</span></>, url: '/#about-us' },
     { text: <><FontAwesomeIcon style={fontStyle} icon={faBolt} /><span>Services</span></>, url: '/#services' },

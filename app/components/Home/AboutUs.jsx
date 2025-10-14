@@ -59,18 +59,22 @@ export default function AboutUs() {
           {/* Floating stats */}
           <div className="absolute bottom-8 left-8 right-8">
             <div className="bg-white/95 backdrop-blur-sm rounded-xl p-6 shadow-lg">
-              <div className="grid grid-cols-3 gap-4 text-center">
-                <div className="border-r border-gray-200 last:border-r-0">
+              <div className="grid grid-cols-2 gap-6 text-center">
+                <div className="pb-4 border-b border-r border-gray-200">
                   <div className="text-2xl font-bold text-blue">25+</div>
                   <div className="text-xs text-gray-600 mt-1">Years Experience</div>
                 </div>
-                <div className="border-r border-gray-200 last:border-r-0">
+                <div className="pb-4 border-b border-gray-200">
                   <div className="text-2xl font-bold text-blue">500+</div>
                   <div className="text-xs text-gray-600 mt-1">Projects</div>
                 </div>
-                <div>
-                  <div className="text-2xl font-bold text-blue">CA</div>
-                  <div className="text-xs text-gray-600 mt-1">Statewide</div>
+                <div className="pt-4 border-r border-gray-200">
+                  <div className="text-2xl font-bold text-blue">100+</div>
+                  <div className="text-xs text-gray-600 mt-1">Satisfied Clients</div>
+                </div>
+                <div className="pt-4">
+                  <div className="text-2xl font-bold text-blue">CA & ID</div>
+                  <div className="text-xs text-gray-600 mt-1">Licensed</div>
                 </div>
               </div>
             </div>
