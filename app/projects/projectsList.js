@@ -33,10 +33,10 @@ export const schools = [
     id: 'sch-11', src: '/schools/Mcfarland High School Hallways.jpg', alt: 'McFarland High School - Hallways', architectLogo: null
   },
   {
-    id: 'sch-12', src: '/schools/New Dinuba High School  Multipurpose Building.jpg', alt: 'Dinuba High School - Multipurpose Building', architectLogo: null
+    id: 'sch-12', src: '/schools/New Dinuba High School  Multipurpose Building.jpg', alt: 'Dinuba High School - Multipurpose Building', architectLogo: '/logos/PBK Logo (002).jpeg'
   },
   {
-    id: 'sch-13', src: '/schools/New Dinuba High School - Multipurpose Building Outside.jpg', alt: 'Dinuba High School - Multipurpose Building Outside', architectLogo: null
+    id: 'sch-13', src: '/schools/New Dinuba High School - Multipurpose Building Outside.jpg', alt: 'Dinuba High School - Multipurpose Building Outside', architectLogo: '/logos/PBK Logo (002).jpeg'
   },
   {
     id: 'sch-14', src: '/schools/New Sequoia High School -Exterior.jpeg', alt: 'Sequoia High School - Exterior', architectLogo: null

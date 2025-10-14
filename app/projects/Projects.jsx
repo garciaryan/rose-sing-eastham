@@ -7,7 +7,7 @@ import { commercial, schools, municipalities } from './projectsList';
 
 export default function Projects() {
   const [isClient, setIsClient] = useState(false);
-  const [activeTab, setActiveTab] = useState('Commercial');
+  const [activeTab, setActiveTab] = useState('Schools');
   const swiperRefs = useRef({});
 
   useEffect(() => {
