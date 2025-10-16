@@ -69,7 +69,7 @@ export const municipalities = [
     id: 'muni-1', src: '/municipalities/Fire-Station-53, Visalia.jpg', alt: 'Fire Station 53, Visalia', architectLogo: null
   },
   {
-    id: 'muni-2', src: '/municipalities/Gateway Park_View 3_Night.jpeg', alt: 'Gateway Park, Tulare', architectLogo: '/logos/Gateway park - AM Logo.jpeg'
+    id: 'muni-2', src: '/municipalities/Gateway Park_View 3_Night.jpeg', alt: 'Gateway Park, Corcoran', architectLogo: '/logos/Gateway park - AM Logo.jpeg'
   },
   {
     id: 'muni-3', src: '/municipalities/Loma_Vista_Village_Green_-__Sidewalk_light.jpg', alt: 'Loma Vista Village Green - Sidewalk', architectLogo: null
@@ -91,9 +91,6 @@ export const municipalities = [
   },
   {
     id: 'muni-9', src: '/municipalities/tulare_cty_sheriff.JPG', alt: 'Tulare County Sheriff\'s Building, Visalia', architectLogo: null
-  },
-  {
-    id: 'muni-10', src: '/municipalities/Tule River Fire Department.jpg', alt: 'Tule River Fire Department, Porterville', architectLogo: null
   },
   {
     id: 'muni-11', src: '/municipalities/Underconstruction - AP Arch - Springville Library.jpeg', alt: 'Springville Library, Springville', architectLogo: null

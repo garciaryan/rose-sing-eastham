@@ -82,7 +82,6 @@ export default function Header() {
   return (
     <>
       <Navbar
-        shouldHideOnScroll
         disableAnimation
         isBordered
         className="h-24 bg-white relative z-50"
