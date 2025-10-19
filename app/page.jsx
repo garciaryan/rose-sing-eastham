@@ -35,7 +35,7 @@ export default function Home() {
             <h2 className="mt-3 lg:mt-8 lg:text-4xl text-2xl lg:col-span-2 col-span-6 lg:col-start-4 row-start-4 text-white font-extralight">Let us light your way</h2>
             <div className="flex flex-col lg:flex-row lg:justify-evenly col-span-6 row-start-6 mt-4 items-center">
               <Link href="/projects" className="max-h-24 mb-4">
-                <Button className="min-w-[12rem] cursor-pointer project-button lg:text-2xl text-xl border-4 h-24 text-white bg-transparent hover:bg-white hover:text-black transition-all duration-300" size="lg">
+                <Button className="min-w-[12rem] cursor-pointer project-button lg:text-2xl text-xl border-4 h-24 text-white bg-transparent hover:bg-white hover:text-black transition-all duration-300 border-white" size="lg">
                   View Our Projects
                 </Button>
               </Link>
