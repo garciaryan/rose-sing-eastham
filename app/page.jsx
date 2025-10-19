@@ -6,6 +6,7 @@ import AboutUs from "./components/Home/AboutUs";
 import Logos from "./components/Home/Logos";
 import { Button } from "@heroui/react";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -15,7 +16,22 @@ export default function Home() {
         <div className="h-full relative flex flex-col items-center justify-between hero">
           <HomeCarousel />
           <div className="pl-4 lg:pl-0 absolute z-10 w-full h-full bg-[rgba(0,0,0,0.6)] grid grid-cols-6 grid-rows-8">
-            <h1 className="lg:text-8xl text-6xl font-semibold col-span-6 lg:col-span-5 self-end row-start-3 lg:col-start-2 text-white">Rose Sing Eastham</h1>
+            {/* Logo and H1 container */}
+            <div className="col-span-6 lg:col-span-5 lg:col-start-2 row-start-2 lg:row-start-3 flex flex-col lg:flex-row lg:items-end items-start lg:space-x-6">
+              {/* Logo positioned above h1 on mobile, next to h1 on desktop */}
+              <div className="flex justify-start lg:justify-center items-center mb-4 lg:mb-0">
+                <Image
+                  src="/rse-logo-trans.png"
+                  alt="Rose Sing Eastham Logo"
+                  width={100}
+                  height={79}
+                  className="bg-white/90 backdrop-blur-sm rounded-md p-2"
+                />
+              </div>
+              
+              <h1 className="lg:text-8xl text-6xl font-semibold text-white flex-1">Rose Sing Eastham</h1>
+            </div>
+            
             <h2 className="mt-3 lg:mt-8 lg:text-4xl text-2xl lg:col-span-2 col-span-6 lg:col-start-4 row-start-4 text-white font-extralight">Let us light your way</h2>
             <div className="flex flex-col lg:flex-row lg:justify-evenly col-span-6 row-start-6 mt-4 items-center">
               <Link href="/projects" className="max-h-24 mb-4">

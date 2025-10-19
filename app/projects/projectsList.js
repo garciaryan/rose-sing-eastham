@@ -9,7 +9,7 @@ export const schools = [
     id: 'sch-3', src: '/schools/Bishop Elementary, new classrom wing.jpg', alt: 'Bishop Elementary, new classroom wing', architectLogo: null
   },
   {
-    id: 'sch-4', src: '/schools/Coalina High School - CTE Academy, Ag Farm.jpg', alt: 'Coalina High School - CTE Academy, Ag Farm', architectLogo: null
+    id: 'sch-4', src: '/schools/Coalinga High School - CTE Academy, Ag Farm.jpg', alt: 'Coalinga High School - CTE Academy, Ag Farm', architectLogo: null
   },
   {
     id: 'sch-5', src: '/schools/Corcoran High School Career Technical Education -372.jpg', alt: 'Corcoran High School Career Technical Education', architectLogo: null
@@ -33,16 +33,16 @@ export const schools = [
     id: 'sch-11', src: '/schools/Mcfarland High School Hallways.jpg', alt: 'McFarland High School - Hallways', architectLogo: null
   },
   {
-    id: 'sch-12', src: '/schools/New Dinuba High School  Multipurpose Building.jpg', alt: 'Dinuba High School - Multipurpose Building', architectLogo: '/logos/PBK Logo (002).jpeg'
+    id: 'sch-12', src: '/schools/Dinuba2.jpg', alt: 'Dinuba High School - Multipurpose Building', architectLogo: '/logos/PBK Logo (002).jpeg'
   },
   {
-    id: 'sch-13', src: '/schools/New Dinuba High School - Multipurpose Building Outside.jpg', alt: 'Dinuba High School - Multipurpose Building Outside', architectLogo: '/logos/PBK Logo (002).jpeg'
+    id: 'sch-13', src: '/schools/Dinuba1.jpg', alt: 'Dinuba High School - Multipurpose Building', architectLogo: '/logos/PBK Logo (002).jpeg'
   },
   {
-    id: 'sch-14', src: '/schools/New Sequoia High School -Exterior.jpeg', alt: 'Sequoia High School - Exterior', architectLogo: null
+    id: 'sch-22', src: '/schools/Dinuba3.jpg', alt: 'Dinuba High School - Gymnasium', architectLogo: '/logos/PBK Logo (002).jpeg'
   },
   {
-    id: 'sch-15', src: '/schools/New Sequoia High School Gym.jpeg', alt: 'Sequoia High School - Gym', architectLogo: null
+    id: 'sch-23', src: '/schools/Dinuba4.jpg', alt: 'Dinuba High School', architectLogo: '/logos/PBK Logo (002).jpeg'
   },
   {
     id: 'sch-16', src: '/schools/Pioneer Elementary, Hanford-Modernization  Outside.jpg', alt: 'Pioneer Elementary, Hanford - Modernization Outside', architectLogo: null
@@ -52,6 +52,12 @@ export const schools = [
   },
   {
     id: 'sch-18', src: '/schools/Sanger Academy Charter New Multi-Purpose Building.jpg', alt: 'Sanger Academy Charter New Multi-Purpose Building', architectLogo: null
+  },
+  {
+    id: 'sch-14', src: '/schools/New Sequoia High School -Exterior.jpeg', alt: 'Sequoia High School - Exterior', architectLogo: null
+  },
+  {
+    id: 'sch-15', src: '/schools/New Sequoia High School Gym.jpeg', alt: 'Sequoia High School - Gym', architectLogo: null
   },
   {
     id: 'sch-19', src: '/schools/Sequoia High School  - Culinary Classroom.jpeg', alt: 'Sequoia High School - Culinary Classroom', architectLogo: null
@@ -84,13 +90,7 @@ export const municipalities = [
     id: 'muni-6', src: '/municipalities/Porterville-Comm-Center.webp', alt: 'Porterville Community Center', architectLogo: null
   },
   {
-    id: 'muni-7', src: '/municipalities/Riverway Sports Park, Visalia.jpg', alt: 'Riverway Sports Park, Visalia' , architectLogo: null
-  },
-  {
     id: 'muni-8', src: '/municipalities/Tulare County Sheriff\'s Building, Visalia.jpg', alt: 'Tulare County Sheriff\'s Building, Visalia', architectLogo: null
-  },
-  {
-    id: 'muni-9', src: '/municipalities/tulare_cty_sheriff.JPG', alt: 'Tulare County Sheriff\'s Building, Visalia', architectLogo: null
   },
   {
     id: 'muni-11', src: '/municipalities/Underconstruction - AP Arch - Springville Library.jpeg', alt: 'Springville Library, Springville', architectLogo: null

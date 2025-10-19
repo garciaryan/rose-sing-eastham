@@ -14,7 +14,7 @@ const logos = [
   },
   {
     id: 3,
-    src: '/logos/4Creeks - DKJ Logo-Black@4x.png',
+    src: '/logos/4C-HorizLogo-Black.png',
     alt: '4Creeks Architects',
   },
   {
@@ -66,6 +66,11 @@ const logos = [
     id: 13,
     src: '/logos/wbe.png',
     alt: 'WBE Electrical Contracting',
+  },
+  {
+    id: 14,
+    src: '/logos/4Creeks - DKJ Logo-Black@4x.png',
+    alt: 'DKJ Architects',
   }
 ];
 
@@ -73,11 +78,11 @@ export default function Logos() {
   return (
     <section className="pt-16">
       <div className="max-w-6xl mx-auto">
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-6">
+        <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-7 xl:grid-cols-7 gap-6 place-items-center">
           {logos.map((logo) => (
             <div
               key={logo.id}
-              className="flex items-center justify-center p-2 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors duration-300 aspect-square"
+              className="flex items-center justify-center p-2 bg-gray-50 rounded-lg hover:bg-gray-100 transition-colors duration-300 aspect-square w-full"
             >
               <div className="relative w-full h-full flex items-center justify-center">
                 <Image
@@ -85,7 +90,7 @@ export default function Logos() {
                   alt={logo.alt}
                   fill
                   className="object-contain p-2"
-                  sizes="(max-width: 640px) 50vw, (max-width: 768px) 33vw, (max-width: 1024px) 25vw, (max-width: 1280px) 20vw, 16vw"
+                  sizes="(max-width: 640px) 50vw, (max-width: 768px) 25vw, (max-width: 1024px) 20vw, (max-width: 1280px) 14vw, 14vw"
                 />
               </div>
             </div>
