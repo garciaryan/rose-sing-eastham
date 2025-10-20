@@ -15,27 +15,27 @@ export default function Home() {
         {/* Hero Section */}
         <div className="h-full relative flex flex-col items-center justify-between hero">
           <HomeCarousel />
-          <div className="pl-4 lg:pl-0 absolute z-10 w-full h-full bg-[rgba(0,0,0,0.6)] grid grid-cols-6 grid-rows-8">
+          <div className="pl-4 lg:pl-0 absolute z-10 w-full h-full bg-[rgba(0,0,0,0.6)] grid grid-cols-6 grid-rows-12 lg:grid-rows-8">
             {/* Logo and H1 container */}
-            <div className="col-span-6 lg:col-span-5 lg:col-start-2 row-start-2 lg:row-start-3 flex flex-col lg:flex-row lg:items-end items-start lg:space-x-6">
+            <div className="col-span-6 lg:col-span-5 lg:col-start-2 row-start-3 lg:row-start-3 flex flex-col lg:flex-row lg:items-end items-start lg:space-x-6">
               {/* Logo positioned above h1 on mobile, next to h1 on desktop */}
-              <div className="flex justify-start lg:justify-center items-center mb-4 lg:mb-0">
+              <div className="flex justify-start lg:justify-center items-center mb-2 lg:mb-0">
                 <Image
                   src="/rse-logo-trans.png"
                   alt="Rose Sing Eastham Logo"
-                  width={100}
-                  height={79}
-                  className="bg-white/90 backdrop-blur-sm rounded-md p-2"
+                  width={80}
+                  height={63}
+                  className="bg-white/90 backdrop-blur-sm rounded-md p-2 lg:w-[100px] lg:h-[79px]"
                 />
               </div>
               
-              <h1 className="lg:text-8xl text-6xl font-semibold text-white flex-1">Rose Sing Eastham</h1>
+              <h1 className="text-4xl sm:text-6xl lg:text-8xl font-semibold text-white flex-1">Rose Sing Eastham</h1>
             </div>
             
-            <h2 className="mt-3 lg:mt-8 lg:text-4xl text-2xl lg:col-span-2 col-span-6 lg:col-start-4 row-start-4 text-white font-extralight">Let us light your way</h2>
-            <div className="flex flex-col lg:flex-row lg:justify-evenly col-span-6 row-start-6 mt-4 items-center">
+            <h2 className="mt-2 lg:mt-8 text-xl sm:text-2xl lg:text-4xl lg:col-span-2 col-span-6 lg:col-start-4 row-start-5 lg:row-start-4 text-white font-extralight">Let us light your way</h2>
+            <div className="flex flex-col lg:flex-row lg:justify-evenly col-span-6 row-start-8 lg:row-start-6 mt-4 items-center">
               <Link href="/projects" className="max-h-24 mb-4">
-                <Button className="min-w-[12rem] cursor-pointer project-button lg:text-2xl text-xl border-4 h-24 text-white bg-transparent hover:bg-white hover:text-black transition-all duration-300 border-white" size="lg">
+                <Button className="min-w-[12rem] cursor-pointer project-button text-lg lg:text-2xl border-4 h-16 lg:h-24 text-white bg-transparent hover:bg-white hover:text-black transition-all duration-300 border-white" size="lg">
                   View Our Projects
                 </Button>
               </Link>
