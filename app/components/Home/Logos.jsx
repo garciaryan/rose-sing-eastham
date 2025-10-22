@@ -69,8 +69,8 @@ const logos = [
   },
   {
     id: 14,
-    src: '/logos/4Creeks - DKJ Logo-Black@4x.png',
-    alt: 'DKJ Architects',
+    src: '/logos/calgren.jpg',
+    alt: 'Calgren Architects',
   }
 ];
 
