@@ -9,7 +9,7 @@ export const schools = [
     id: 'sch-3', src: '/schools/Bishop Elementary, new classrom wing.jpg', alt: 'Bishop Elementary, new classroom wing', architectLogo: null
   },
   {
-    id: 'sch-4', src: '/schools/Coalinga High School - CTE Academy, Ag Farm.jpg', alt: 'Coalinga High School - CTE Academy, Ag Farm', architectLogo: null
+    id: 'sch-4', src: '/schools/coalinga-ag-farm.jpg', alt: 'Coalinga High School - CTE Academy, Ag Farm', architectLogo: null
   },
   {
     id: 'sch-5', src: '/schools/Corcoran High School Career Technical Education -372.jpg', alt: 'Corcoran High School Career Technical Education', architectLogo: null
@@ -19,9 +19,6 @@ export const schools = [
   },
   {
     id: 'sch-7', src: '/schools/Hanford Elementary School District Central Kitchen.jpg', alt: 'Hanford Elementary School District Central Kitchen', architectLogo: null
-  },
-  {
-    id: 'sch-8', src: '/schools/Highgate Elementary School, Bakersfield - Modernization of the library.jpg', alt: 'Highgate Elementary School, Bakersfield - Modernization of the library', architectLogo: null
   },
   {
     id: 'sch-9', src: '/schools/Huron Elementary School - Modernization.jpg', alt: 'Huron Elementary School - Modernization', architectLogo: null
@@ -39,10 +36,10 @@ export const schools = [
     id: 'sch-13', src: '/schools/Dinuba1.jpg', alt: 'Dinuba High School - Multipurpose Building', architectLogo: '/logos/PBK Logo (002).jpeg'
   },
   {
-    id: 'sch-22', src: '/schools/Dinuba3.jpg', alt: 'Dinuba High School - Gymnasium', architectLogo: '/logos/PBK Logo (002).jpeg'
+    id: 'sch-28', src: '/schools/Dinuba3.jpg', alt: 'Dinuba High School - Gymnasium', architectLogo: '/logos/PBK Logo (002).jpeg'
   },
   {
-    id: 'sch-23', src: '/schools/Dinuba4.jpg', alt: 'Dinuba High School', architectLogo: '/logos/PBK Logo (002).jpeg'
+    id: 'sch-29', src: '/schools/Dinuba4.jpg', alt: 'Dinuba High School', architectLogo: '/logos/PBK Logo (002).jpeg'
   },
   {
     id: 'sch-16', src: '/schools/Pioneer Elementary, Hanford-Modernization  Outside.jpg', alt: 'Pioneer Elementary, Hanford - Modernization Outside', architectLogo: null
@@ -67,6 +64,24 @@ export const schools = [
   },
   {
     id: 'sch-21', src: '/schools/Visalia Technical Early College High School - Upgrades.jpg', alt: 'Visalia Technical Early College High School - Upgrades', architectLogo: null
+  },
+  {
+    id: 'sch-22', src: '/schools/1-COVER.webp', alt: 'Highgate Elementary School', architectLogo: null
+  },
+  {
+    id: 'sch-23', src: '/schools/6-HIGHGATE-S-21-0505-EDIT.webp', alt: 'Highgate Elementary School - Multipurpose Exterior', architectLogo: null
+  },
+  {
+    id: 'sch-24', src: '/schools/9-HIGHGATE-S-21-0031.webp', alt: 'Highgate Elementary School - Multipurpose Interior', architectLogo: null
+  },
+  {
+    id: 'sch-25', src: '/schools/11-HIGHGATE-S-21-0072.webp', alt: 'Highgate Elementary School - Interior', architectLogo: null
+  },
+  {
+    id: 'sch-26', src: '/schools/24-HIGHGATE-S-21-0140.webp', alt: 'Highgate Elementary School - Interior', architectLogo: null
+  },
+  {
+    id: 'sch-27', src: '/schools/25-HIGHGATE.webp', alt: 'Highgate Elementary School - Interior', architectLogo: null
   }
 ];
 
@@ -124,5 +139,14 @@ export const commercial = [
   },
   {
     id: 'comm-7', src: '/commercial/Wonderful Citrus, Delano Fill and Sorting- .jpg', alt: 'Wonderful Citrus, Delano Fill and Sorting', architectLogo: null
+  },
+  {
+    id: 'comm-8', src: '/commercial/Los Banos Football Stadium-5-min.jpg', alt: 'Los Banos Football Stadium', architectLogo: '/logos/calgren.jpg'
+  },
+  {
+    id: 'comm-9', src: '/commercial/Los Banos Football Stadium-18-min.jpg', alt: 'Los Banos Football Stadium - Team Room', architectLogo: '/logos/calgren.jpg'
+  },
+  {
+    id: 'comm-10', src: '/commercial/Los Banos Football Stadium-24-min.jpg', alt: 'Los Banos Football Stadium', architectLogo: '/logos/calgren.jpg'
   }
 ];

@@ -37,6 +37,26 @@ main {
 
 .hero {
   @apply h-[calc(100vh-6rem)];
+  min-height: 500px;
+}
+
+@supports (height: 100dvh) {
+  .hero {
+    height: calc(100dvh - 6rem);
+  }
+}
+
+@media (max-width: 640px) {
+  .hero {
+    min-height: 600px;
+    height: calc(100vh - 6rem);
+  }
+}
+
+@supports (height: 100dvh) and (max-width: 640px) {
+  .hero {
+    height: calc(100dvh - 6rem);
+  }
 }
 
 swiper-container {
