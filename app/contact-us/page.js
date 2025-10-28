@@ -1,3 +1,7 @@
+import { Button } from "@heroui/react";
+import Link from "next/link";
+import CTA from "../components/CTA";
+
 export default function ContactUsPage() {
   return (
     <main className="bg-gray-100 text-black min-h-screen">
@@ -113,22 +117,12 @@ export default function ContactUsPage() {
       </section>
 
       {/* Call to Action */}
-      <section className="bg-blue text-white py-32">
-        <div className="max-w-4xl mx-auto text-center px-6">
-          <h2 className="text-3xl font-bold mb-6">Ready to Get Started?</h2>
-          <p className="text-lg mb-8">
-            Contact us today to discuss your electrical engineering needs and discover how we can help bring your project to life.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a
-              href="mailto:jeastham@rse-eng.com"
-              className="bg-white text-blue px-8 py-3 rounded-lg text-lg hover:bg-gray-100 transition duration-300"
-            >
-              Contact Us
-            </a>
-          </div>
-        </div>
-      </section>
+      <CTA 
+        title="Ready to Get Started?"
+        description="Contact us today to discuss your electrical engineering needs and discover how we can help bring your project to life."
+        primaryButton={{ text: "Contact Us", href: "mailto:jeastham@rse-eng.com" }}
+        showSecondaryButton={false}
+      />
     </main>
   );
 }

@@ -82,6 +82,15 @@ export const schools = [
   },
   {
     id: 'sch-27', src: '/schools/25-HIGHGATE.webp', alt: 'Highgate Elementary School - Interior', architectLogo: null
+  },
+  {
+    id: 'sch-32', src: '/commercial/Los Banos Football Stadium-5-min.jpg', alt: 'Loftin Stadium - Los Banos', architectLogo: '/logos/Mangini Logo - Color .jpg'
+  },
+  {
+    id: 'sch-31', src: '/commercial/Los Banos Football Stadium-18-min.jpg', alt: 'Loftin Stadium - Team Room', architectLogo: '/logos/Mangini Logo - Color .jpg'
+  },
+  {
+    id: 'sch-30', src: '/commercial/Los Banos Football Stadium-24-min.jpg', alt: 'Loftin Stadium - Los Banos', architectLogo: '/logos/Mangini Logo - Color .jpg'
   }
 ];
 
@@ -140,13 +149,4 @@ export const commercial = [
   {
     id: 'comm-7', src: '/commercial/Wonderful Citrus, Delano Fill and Sorting- .jpg', alt: 'Wonderful Citrus, Delano Fill and Sorting', architectLogo: null
   },
-  {
-    id: 'comm-8', src: '/commercial/Los Banos Football Stadium-5-min.jpg', alt: 'Los Banos Football Stadium', architectLogo: '/logos/calgren.jpg'
-  },
-  {
-    id: 'comm-9', src: '/commercial/Los Banos Football Stadium-18-min.jpg', alt: 'Los Banos Football Stadium - Team Room', architectLogo: '/logos/calgren.jpg'
-  },
-  {
-    id: 'comm-10', src: '/commercial/Los Banos Football Stadium-24-min.jpg', alt: 'Los Banos Football Stadium', architectLogo: '/logos/calgren.jpg'
-  }
 ];

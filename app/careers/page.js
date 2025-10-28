@@ -1,3 +1,7 @@
+import { Button } from "@heroui/react";
+import Link from "next/link";
+import CTA from "../components/CTA";
+
 export default function CareersPage() {
   return (
     <main className="bg-gray-100 text-black min-h-screen">
@@ -103,20 +107,12 @@ export default function CareersPage() {
       </section>
 
       {/* Call to Action */}
-      <section className="py-32">
-        <div className="max-w-6xl mx-auto text-center">
-          <h3 className="text-3xl font-bold mb-6">Ready to Join Us?</h3>
-          <p className="text-lg mb-8">
-            Send us your resume and let us know how you&apos;d be a great fit!
-          </p>
-          <a
-            href="mailto:jeastham@rse-eng.com"
-            className="bg-blue text-white px-8 py-3 rounded-lg text-lg hover:bg-light-blue transition duration-300"
-          >
-            Contact Us
-          </a>
-        </div>
-      </section>
+      <CTA 
+        title="Ready to Join Us?"
+        description="Send us your resume and let us know how you'd be a great fit!"
+        primaryButton={{ text: "Contact Us", href: "mailto:jeastham@rse-eng.com" }}
+        showSecondaryButton={false}
+      />
     </main>
   );
 }
